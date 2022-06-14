@@ -23,3 +23,5 @@ SECRET_KEY = "secret"
 
 # Auto reload templates
 TEMPLATES_AUTO_RELOAD = True
+
+SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://lephong:123456/localhost/Users'
